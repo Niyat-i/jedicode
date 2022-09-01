@@ -37,7 +37,7 @@ echo -e ${CYAN}                "Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
 echo -e "${WHITE}              [2] Arch Linux (pacman)" # added arch linux support because of feature request #231
 echo -e "${WHITE}              [0] Exit "
-echo -n -e "Z4nzu >> "
+echo -n -e "obi wan >> "
 read choice
 INSTALL_DIR="/usr/share/doc/jedicode"
 BIN_DIR="/usr/bin/"
