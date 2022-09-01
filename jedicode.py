@@ -27,18 +27,20 @@ from tools.wordlist_generator import WordlistGeneratorTools
 from tools.xss_attack import XSSAttackTools
 
 logo = """\033[33m
-   ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       
-  ███    ███     ███    ███ ███    ███   ███ ▄███▀ ███  ███▀▀▀██▄   ███    ███      ▀█████████▄ ███    ███ ███    ███ ███       
-  ███    ███     ███    ███ ███    █▀    ███▐██▀   ███▌ ███   ███   ███    █▀          ▀███▀▀██ ███    ███ ███    ███ ███       
- ▄███▄▄▄▄███▄▄   ███    ███ ███         ▄█████▀    ███▌ ███   ███  ▄███                 ███   ▀ ███    ███ ███    ███ ███       
-▀▀███▀▀▀▀███▀  ▀███████████ ███        ▀▀█████▄    ███▌ ███   ███ ▀▀███ ████▄           ███     ███    ███ ███    ███ ███       
-  ███    ███     ███    ███ ███    █▄    ███▐██▄   ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███       
-  ███    ███     ███    ███ ███    ███   ███ ▀███▄ ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███▌    ▄ 
-  ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ 
-                                         ▀                                                                            ▀                             
-                                    \033[34m[✔] https://github.com/Z4nzu/jedicode   [✔]
-                                    \033[34m[✔]            Version 1.1.0               [✔]
-                                    \033[91m[X] Please Don't Use For illegal Activity  [X]
+                        ▄▄   ▄▄                                ▄▄          
+   ▀████▀             ▀███   ██       ▄▄█▀▀▀█▄█              ▀███          
+     ██                 ██          ▄██▀     ▀█                ██          
+     ██   ▄▄█▀██   ▄█▀▀███ ▀███     ██▀       ▀ ▄██▀██▄   ▄█▀▀███   ▄▄█▀██ 
+     ██  ▄█▀   ██▄██    ██   ██     ██         ██▀   ▀██▄██    ██  ▄█▀   ██
+     ██  ██▀▀▀▀▀▀███    ██   ██     ██▄        ██     █████    ██  ██▀▀▀▀▀▀
+███  ██  ██▄    ▄▀██    ██   ██     ▀██▄     ▄▀██▄   ▄██▀██    ██  ██▄    ▄
+ █████    ▀█████▀ ▀████▀███▄████▄     ▀▀█████▀  ▀█████▀  ▀████▀███▄ ▀█████▀
+                                                                           
+                                                                           
+                   
+                                    \033[34m[✔] https://github.com/Niyat-i/jedicode   [✔]
+                                    \033[34m[✔]            Version sith               [✔]
+                                    \033[91m[X]       Use it for whatever man          [X]
 \033[97m """
 
 all_tools = [
@@ -74,7 +76,7 @@ class AllTools(JediCollection):
 if __name__ == "__main__":
     try:
         if system() == 'Linux':
-            fpath = "/home/hackingtoolpath.txt"
+            fpath = "/home/jedicodepath.txt"
             if not os.path.exists(fpath):
                 os.system('clear')
                 # run.menu()
@@ -83,7 +85,7 @@ if __name__ == "__main__":
                         [1] Manual 
                         [2] Default
                 """)
-                choice = input("Z4nzu =>> ")
+                choice = input("anakin =>> ")
 
                 if choice == "1":
                     inpath = input("Enter Path (with Directory Name) >> ")
