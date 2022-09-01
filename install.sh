@@ -27,7 +27,7 @@ echo ""
 	echo " \        |   \o    o/     \      \|o    o/          \         /  \         /  \      \|o  \o    o/     ";
 	echo "  o       o     \  /    o   o      |     |            o       o    o       o    o      |     \  /    o  ";
 	echo "  <\__ __/>     <\/> __/\   /\__  / \   / \           <\__ __/\    /\__ __/\    /\__  / \    <\/> __/\  ";                                                                                                                                                                                                                                                                                                                                                                                                                                               
-echo -e "${BLUE}                                    https://github.com/Niyat-i/jedicode ${NC}"
+echo -e "${RED}                                    https://github.com/Niyat-i/jedicode ${NC}"
 echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
 echo -e ${CYAN}                "Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
