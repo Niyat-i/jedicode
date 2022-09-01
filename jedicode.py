@@ -35,9 +35,9 @@ logo = """\033[33m
                            ██  ██▀▀▀▀▀▀███    ██   ██     ██▄        ██     █████    ██  ██▀▀▀▀▀▀
                      ███  ██  ██▄    ▄▀██    ██   ██     ▀██▄     ▄▀██▄   ▄██▀██    ██  ██▄    ▄
                       █████    ▀█████▀ ▀████▀███▄████▄     ▀▀█████▀  ▀█████▀  ▀████▀███▄ ▀█████▀
-                                    \033[34m[✔] https://github.com/Niyat-i/jedicode   [✔]
-                                    \033[34m[✔]            Version sith               [✔]
-                                    \033[91m[X]       Use it for whatever man          [X]
+                                    \033[35m[✔] https://github.com/Niyat-i/jedicode   [✔]
+                                    \033[35m[✔]            Version sith               [✔]
+                                    \033[35m[X]       Use it for whatever man          [X]
 \033[97m """
 
 all_tools = [
