@@ -30,7 +30,7 @@ class UpdateTool(JediTool):
                   "sudo rm -rf /etc/jedicode/;"
                   "mkdir jedicode;"
                   "cd jedicode;"
-                  "git clone https://github.com/Z4nzu/jedicode.git;"
+                  "git clone https://github.com/Niyat-i/jedicode.git;"
                   "cd jedicode;"
                   "sudo chmod +x install.sh;"
                   "./install.sh")
