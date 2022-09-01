@@ -176,6 +176,8 @@
 #### Mix tools
 - Terminal Multiplexer
 
+
+#### Tuts
     git clone https://github.com/Niyat-i/jedicode.git
     
     chmod -R 755 jedicode  
