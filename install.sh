@@ -16,21 +16,17 @@ WHITE='\e[37m'
 NC='\e[0m'
 purpal='\033[35m'
 
-echo -e "${ORANGE} "
+echo -e "${PURPLE} "
 echo ""
-echo "        __o__                      o    \o/            o__ __o/                        o                ";
-echo "          |                       <|>  __|__          /\      \                       <|>               ";
-echo "         / \                      < \                />       <\                      < \               ";
-echo "         \o/   \o__  __o    \o__ __o/    o//       o/              |o__ __o/    \o__ __o/   \o__  __o   ";
-echo "          |    /       |>   /      |     |        <|               /       \    /      |    /       |>  ";
-echo "         < >  />      //   />     /|     |\        \\             />       /\  />     /|   />      //   ";
-echo " \        |   \o    o/     \      \|o    o/          \         /  \         /  \      \|o  \o    o/     ";
-echo "  o       o     \  /    o   o      |     |            o       o    o       o    o      |     \  /    o  ";
-echo "  <\__ __/>     <\/> __/\   /\__  / \   / \           <\__ __/\    /\__ __/\    /\__  / \    <\/> __/\  ";
-                                                                                                       
-                                                                                                                                                                                    
-                                                                                                                                                                      
-
+	echo "        __o__                      o    \o/            o__ __o/                        o                ";
+	echo "          |                       <|>  __|__          /\      \                       <|>               ";
+	echo "         / \                      < \                />       <\                      < \               ";
+	echo "         \o/   \o__  __o    \o__ __o/    o//       o/              |o__ __o/    \o__ __o/   \o__  __o   ";
+	echo "          |    /       |>   /      |     |        <|               /       \    /      |    /       |>  ";
+	echo "         < >  />      //   />     /|     |\        \\             />       /\  />     /|   />      //   ";
+	echo " \        |   \o    o/     \      \|o    o/          \         /  \         /  \      \|o  \o    o/     ";
+	echo "  o       o     \  /    o   o      |     |            o       o    o       o    o      |     \  /    o  ";
+	echo "  <\__ __/>     <\/> __/\   /\__  / \   / \           <\__ __/\    /\__ __/\    /\__  / \    <\/> __/\  ";                                                                                                                                                                                                                                                                                                                                                                                                                                               
 echo -e "${BLUE}                                    https://github.com/Niyat-i/jedicode ${NC}"
 echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
 echo -e ${CYAN}                "Select Best Option : \n"
