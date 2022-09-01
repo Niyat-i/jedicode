@@ -63,7 +63,7 @@ if [ $choice == 1 ] || [ $choice == 2 ]; then
 	    fi
 
         echo "[✔] Installing ...\n";
-        sudo git clone https://github.com/Z4nzu/jedicode.git "$INSTALL_DIR";
+        sudo git clone https://github.com/Niyat-i/jedicode "$INSTALL_DIR";
         echo "#!/bin/bash
         python3 $INSTALL_DIR/jedicode.py" '${1+"$@"}' > jedicode;
         sudo chmod +x jedicode;
