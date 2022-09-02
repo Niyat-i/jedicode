@@ -158,6 +158,8 @@
 - [EvilURL](https://github.com/UndeadSec/EvilURL)
 #### Email Verify tools
 - [Knockmail](https://github.com/4w4k3/KnockMail)
+#### Fake Sms tools
+- [fake-sms](https://github.com/machine1337/fake-sms)
 #### Hash cracking tools
 - [Hash Buster](https://github.com/s0md3v/Hash-Buster)
 #### Wifi Deauthenticate
