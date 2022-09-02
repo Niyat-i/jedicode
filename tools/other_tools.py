@@ -6,6 +6,7 @@ from core import JediTool
 from core import JediCollection
 from tools.others.android_attack import AndroidAttackTools
 from tools.others.email_verifier import EmailVerifyTools
+from tools.others.fake_sms import FakeSmsTools
 from tools.others.hash_crack import HashCrackingTools
 from tools.others.homograph_attacks import IDNHomographAttackTools
 from tools.others.mix_tools import MixTools
@@ -37,6 +38,7 @@ class OtherTools(JediCollection):
         HatCloud(),
         IDNHomographAttackTools(),
         EmailVerifyTools(),
+        FakeSmsTools(),
         HashCrackingTools(),
         WifiJammingTools(),
         SocialMediaFinderTools(),
